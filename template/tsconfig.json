@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    // "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "types": ["node"],
+    "lib": ["es2017", "dom"],
+    "baseUrl": "./src/app",
+    "paths": {
+      "@component/*": ["component/*"],
+      "@module/*": ["module/*"],
+      "@interface/*": ["interface/*"],
+      "@vuex/*": ["vuex/*"],
+      "@route/*": ["route/*"],
+      "@service/*": ["service/*"],
+      "@resource/*": ["resource/*"],
+      "@util/*": ["util/*"],
+      "@pipe/*": ["pipe/*"],
+      "@lib/*": ["lib/*"]
+    }
+  }
+}
